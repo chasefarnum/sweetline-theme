@@ -2541,12 +2541,13 @@ iframe[class^="PIN"] { display: none; } /* keep pinterest from crapping on our s
 
 .home-page-full-column-wrapper {
 	background: #000;
-	border-top: solid 3px #f4f4f4;
+	border-top: solid 5px #f4f4f4;
+	border-bottom: solid 5px #f4f4f4;
+	margin-bottom: 40px;
 }
 
 .home-page-columns-wrapper {
 	background: #3c3c3c;
-	
 	border-bottom: solid 3px #f4f4f4;
 }
 
@@ -2597,8 +2598,8 @@ iframe[class^="PIN"] { display: none; } /* keep pinterest from crapping on our s
 
 .home-page-full-column {
 	clear: both;
-	padding: 20px 0 20px;
-	padding: 2rem 0 2rem;
+	padding: 10px 0 10px;
+	padding: 1rem 0 1rem;
 	width: 90%;
 }
 
