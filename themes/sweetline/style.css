@@ -286,6 +286,29 @@ p {
 	color: #fff; 
 }
 
+.tp-bullets {
+	margin-bottom: 60px !important;
+}
+
+.tagline img {
+	padding-bottom: 5px !important;
+}
+
+.tagline span {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.social-home {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color:pink;
+	display: block;
+	z-index: 9999;
+		
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	2.	Header Styles
@@ -2722,7 +2745,7 @@ iframe[class^="PIN"] { display: none; } /* keep pinterest from crapping on our s
 		background-color: #000;
 	}
 	.star-text {
-		display: block !important;
+		display: inline-block !important;
 	}
 	#primary,
 	#post-0 { 

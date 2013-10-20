@@ -1250,8 +1250,9 @@
 				<?php echo $htmlBeforeSlider?>
 				<div id="<?php echo $this->sliderHtmlID_wrapper?>" class="<?php echo $sliderWrapperClass?>" style="<?php echo $containerStyle?>">
 					<div class="tagline">
-						<p>Custom. Hand Crafted. Original.</p>
+						<img class"star-home"="" src="http://dev.chasefarnum.com/sweetline/wp-content/themes/sweetline/images/star.png" alt="star"><span class="star-text">Custom. Hand Crafted. Original.</span><img class"star-home"="" src="http://dev.chasefarnum.com/sweetline/wp-content/themes/sweetline/images/star.png" alt="star">
 					</div>
+					
 					<div id="<?php echo $this->sliderHtmlID ?>" class="<?php echo $sliderClass?>" style="<?php echo $bannerStyle?>">						
 						<?php $this->putSlides()?>
 						<?php echo $htmlTimerBar?>
